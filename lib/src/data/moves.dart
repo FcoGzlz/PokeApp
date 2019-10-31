@@ -1,0 +1,30 @@
+import 'package:pokedex/src/data/tipos.dart';
+import 'package:pokedex/src/models/move.dart';
+
+
+final latigoCepa = Move(nombre: "Látigo Cepa" ,tipo: planta,potencia: '45', categoria: "Físico", presicion: '100');
+final hojaAfilada = Move(nombre: "Hoja Afilada" ,tipo: planta,potencia: '55', categoria: "Físico", presicion: '95');
+final drenadoras = Move(nombre: "Drenadoras" ,tipo: planta,potencia: '-', categoria: "Estado", presicion: '90');
+final polvoVeneno = Move(nombre: "Polvo Veneno" ,tipo: veneno,potencia: '-', categoria: "Estado", presicion: '75');
+final dulceAroma = Move(nombre: "Dulce Aroma" ,tipo: normal,potencia: '-', categoria: "Estado", presicion: '100');
+final sintesis = Move(nombre: "Síntesis" ,tipo: planta,potencia: '-', categoria: "Estado", presicion: '-');
+final rayoSolar = Move(nombre: "Rayo Solar" ,tipo: planta,potencia: '120', categoria: "Especial", presicion: '100');
+final derribo = Move(nombre: "Derribo " ,tipo: normal,potencia: '90', categoria: "Físico", presicion: '85');
+final ascuas = Move(nombre: "Ascuas" ,tipo: fuego,potencia: '40', categoria: "Especial", presicion: '100');
+final furiaDragon = Move(nombre: "Furia Dragon" ,tipo: dragon,potencia: '-', categoria: "Especial", presicion: '100');
+final colmilloIgneo = Move(nombre: "Colmillo Ígneo" ,tipo: fuego,potencia: '65', categoria: "Físico", presicion: '95');
+final infierno = Move(nombre: "Infierno" ,tipo: fuego,potencia: '100', categoria: "Especial", presicion: '50');
+final pistolaAgua = Move(nombre: "Pistola Agua" ,tipo: agua,potencia: '40', categoria: "Especial", presicion: '100');
+final proteccion = Move(nombre: "Protección" ,tipo:normal,potencia: '-', categoria: "Estado", presicion: '-');
+final cabezazo = Move(nombre: "Cabezazo" ,tipo: normal,potencia: '130', categoria: "Físico",presicion: '100');
+final danzaLluvia = Move(nombre: "Danza Lluvia" ,tipo: agua,potencia: '-', categoria: "Estado", presicion: '-');
+final chispa = Move(nombre: "Chispa" ,tipo: electrico,potencia: '65', categoria: "Físico", presicion: '100');
+final bolaVoltio = Move(nombre: "Bola Voltio" ,tipo: electrico,potencia: '-', categoria: "Especial", presicion: '100');
+final ataqueRapido = Move(nombre: "Ataque Rapido" ,tipo: normal,potencia: '40', categoria: "Físico", presicion: '100');
+final atizar = Move(nombre: "Atizar" ,tipo: normal,potencia: '80', categoria: "Físico", presicion: '75');
+final ataqueAla = Move(nombre: "Ataque Ala" ,tipo: volador, potencia: '60', categoria: "Físico", presicion: '100');
+final cuchillada = Move(nombre: "Cuchillada" ,tipo: normal, potencia: '70', categoria: "Físico", presicion: '100');
+final garraMetal = Move(nombre: "Garra Metal" ,tipo: acero, potencia: '50', categoria: "Físico", presicion: '95');
+final lanzallamas = Move(nombre: "Lanzallamas" ,tipo: fuego, potencia: '90', categoria: "Especial", presicion: '100');
+final hidrobomba = Move(nombre: "Hidrobomba" ,tipo: agua, potencia: '110', categoria: "Especial", presicion: '80');
+final hidropulso = Move(nombre: "Hidropulso" ,tipo: agua, potencia: '60', categoria: "Especial", presicion: '100');
